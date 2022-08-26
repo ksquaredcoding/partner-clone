@@ -1,0 +1,68 @@
+:root {
+  --theme-primary: teal;
+  --theme-secondary: grey;
+  --theme-lighten: #d5c9c9;
+  --theme-white: #f1ecec;
+}
+
+.hero {
+  background-image: url("https://images.unsplash.com/photo-1563396983906-b3795482a59a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80");
+  height: 60vh;
+  background-position: top center;
+  background-size: cover;
+
+}
+
+.spacer {
+  height: 20vh;
+}
+
+.hero>.row {
+  height: 80%
+}
+
+.bg-theme {
+  background-color: var(--theme-primary);
+}
+
+.bg-theme-lighten {
+  background-color: var(--theme-lighten);
+}
+
+.icon {
+  background-color: var(--theme-primary);
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.services {
+  background-color: var(--theme-white);
+  border-radius: 8px;
+}
+
+.text-theme {
+  color: var(--theme-primary)
+}
+
+.action {
+  background-image: url('https://expertphotography.b-cdn.net/wp-content/uploads/2019/09/Urban_landscape_fence.jpg');
+  height: 50vh;
+  background-size: cover;
+  margin: 5rem;
+  border-radius: 8px;
+}
+
+.tag {
+  float: left;
+  position: absolute;
+  top: 60vh;
+  left: 10vh;
+  z-index: 1000;
+
+}
+
+@media screen AND(max-width:768px) {
+  .tag {
+    position: relative;
+  }
+}
