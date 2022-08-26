@@ -67,6 +67,6 @@
     top: 60vh;
     left: 1000;
     z-index: 10vh;
-    float: none;
+    float: left;
   }
 }
