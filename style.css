@@ -61,7 +61,7 @@
 
 }
 
-@media screen AND(max-width:768px) {
+@media (max-width:768px) {
   .tag {
     position: static;
     top: auto;
