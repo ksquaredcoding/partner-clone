@@ -63,6 +63,10 @@
 
 @media screen AND(max-width:768px) {
   .tag {
-    position: relative;
+    position: static;
+    top: auto;
+    left: auto;
+    z-index: auto;
+    float: none;
   }
 }
